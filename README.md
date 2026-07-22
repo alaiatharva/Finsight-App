@@ -1,56 +1,169 @@
-# Welcome to your Expo app 👋
+# 📱 FinSight Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> 🌐 **Website:** https://www.fsight.in/
+> 📥 **Download APK:** https://github.com/alaiatharva/Finsight-App/releases/tag/v1.0.0
 
-## Get started
+FinSight Mobile is the Android application for the FinSight ecosystem, designed to simplify personal finance management with an intuitive mobile experience. The app helps users track income and expenses, analyze spending patterns, scan receipts, detect transactions from SMS messages, and receive AI-powered financial insights—all from their smartphone.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Features
 
-2. Start the app
+* 💰 Track Income & Expenses
+* 📊 Interactive Financial Dashboard
+* 📈 Spending Reports & Analytics
+* 📱 Automatic SMS Transaction Detection
+* 🧾 OCR Receipt Scanner
+* 🤖 AI-Powered Financial Insights
+* 🔍 Advanced Transaction Search & Filters
+* 🏷️ Smart Category Management
+* 🔐 Secure User Authentication
+* 🌙 Light & Dark Mode Support
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 📸 Screenshots
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+> Add screenshots of the following screens:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* Dashboard
+* Transactions
+* Reports
+* SMS Detection
+* Receipt Scanner
+* AI Insights
+* Settings
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🛠️ Tech Stack
+
+### Mobile
+
+* React Native
+* Expo
+* TypeScript
+* Expo Router
+* NativeWind (Tailwind CSS)
+
+### State Management
+
+* Zustand
+
+### Backend & APIs
+
+* Next.js
+* REST APIs
+* Prisma ORM
+* PostgreSQL
+
+### Authentication
+
+* Clerk
+
+### AI & Integrations
+
+* Google AI
+* ML Kit OCR
+* SMS Parsing
+
+---
+
+## 📥 Download
+
+The latest Android APK is available in the **Releases** section of this repository.
+
+1. Open the **Releases** page.
+2. Download the latest **FinSight APK**.
+3. Install it on your Android device.
+4. Enable **Install from Unknown Sources** if prompted.
+
+---
+
+## 🌐 Live Website
+
+Explore the web version of FinSight:
+
+**https://www.fsight.in/**
+
+---
+
+## ⚙️ Running the Project Locally
+
+### Clone the repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/alaiatharva/Finsight-Mobile.git
+cd Finsight-Mobile
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Install dependencies
 
-### Other setup steps
+```bash
+npm install
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### Configure environment variables
 
-## Learn more
+Create a `.env` file and add the required environment variables.
 
-To learn more about developing your project with Expo, look at the following resources:
+Example:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```env
+EXPO_PUBLIC_API_URL=
+EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=
+```
 
-## Join the community
+### Start the Expo development server
 
-Join our community of developers creating universal apps.
+```bash
+npx expo start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+To run on an Android device:
+
+```bash
+npx expo run:android
+```
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── app/
+├── components/
+├── services/
+├── store/
+├── hooks/
+├── lib/
+├── types/
+└── assets/
+```
+
+---
+
+## 🔗 Related Repository
+
+**FinSight Web:** https://www.fsight.in/
+
+---
+
+## 👨‍💻 Developer
+
+**Atharva Alai**
+
+Feel free to explore the project, report issues, or contribute by opening a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ⭐ Support
+
+If you like this project, please consider giving the repository a **⭐ Star**. Your support is greatly appreciated!
