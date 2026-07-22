@@ -1,6 +1,5 @@
 # 📱 FinSight Mobile
 
-> 🌐 **Website:** https://www.fsight.in/
 > 📥 **Download APK:** https://github.com/alaiatharva/Finsight-App/releases/tag/v1.0.0
 
 FinSight Mobile is the Android application for the FinSight ecosystem, designed to simplify personal finance management with an intuitive mobile experience. The app helps users track income and expenses, analyze spending patterns, scan receipts, detect transactions from SMS messages, and receive AI-powered financial insights—all from their smartphone.
